@@ -2,8 +2,10 @@ html,body {
     margin: 0;
     padding:0;
     height: 100vh;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     background-color: #fff;
+    color: #222;
 }
 
 #landing-page {
@@ -12,6 +14,8 @@ html,body {
 
 .topnav {
     list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 
 li {
@@ -40,22 +44,78 @@ li {
 }
 
 #google-search {
-    width: 450px;
-    height: 40px;
+    width: 550px;
+    height: 45px;
     border-radius: 50px;
     border: .2px solid grey;
 }
 
 button {
     background-color: #f8f9fa;
-    border:1px solid #grey;
+    border:1px solid #f8f9fa;
     border-radius: 5px;
     outline: 0px;
     min-width: 54px;
     height: 36px;
     padding: 0px 16px;
+    color: #222;
+    font-weight: 300;
     }
 
+#button-one {
+    margin-right: 5px;
+}
+
+#button-two {
+    margin-left: 5px;
+}
+
 p {
+    font-size: 13px;
     text-align: center;
+    font-weight:
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+
+}
+
+#footer-location {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+    color:#70757a;
+}
+
+#left-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+
+#right-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    
+}
+
+.footer-link {
+    padding: 15px;
+    color:#70757a;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
