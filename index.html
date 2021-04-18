@@ -11,33 +11,41 @@
 </header>
 
 <body>
-    <div>
-        <div id="landing-page">
-            <ul class="topnav">
-                <li>About</li>
-                <li>Store</li>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>icon</li>
-                <li>icon</li>
-            </ul>
+     <div id="top-nav">
+        <div id="top-left-nav">
+            <a href="#" class="top-nav-links">About</a>
+            <a href="#" class="top-nav-links" id="store-link">Store</a>
         </div>
-        <main>
-            <div id="logo-container">
-                <img src="googlelogo.png">
-            </div>
-            <div id="search-content-container">
-                <br>
-                <input id="google-search" type="search"><br>
-            </div>
-            <div id="search-buttons">
-                <button id="button-one">Google Search</button>
-                <button id="button-two">I'm Feeling Lucky</button>
-                <br><br><br>
-            </div>
-            <p>Google offered in: <a href="#">Francais</a> </p>
+        <div id="top-right-nav">
+            <a href="#" class="top-nav-links">Gmail</a>
+            <a href="#" class="top-nav-links">Images</a>
+            <img id="apps-icon" src="apps.png" alt="apps navigation">
+            <button id="sign-in"><a href="#">Sign in</a></button> 
+
         </div>
-        </main>
+    </div>
+    <main>
+    <div id="logo-container">
+            <img src="googlelogo.png">
+        </div>
+        <div id="search-content-container">
+            <br>
+            <div id="search-outline">
+                <img id="magnify" src="magnify.png" alt="">
+                <input id="google-search" type="search">
+                <a href="#"><img id="voice-search" src="voice-search.png" alt="voice search"></a>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div id="search-buttons">
+            <button id="button-one" class="search-links"><a href="#">Google Search</a></button>
+            <button id="button-two" class="search-links"><a href="#">I'm Feeling Lucky</a></button>
+            <br><br><br>
+        </div>
+        <p>Google offered in: <a href="#" id="french">Français</a> </p>
+    </div>
+    </main>
     </div>
 </body>
 <footer>
@@ -55,7 +63,6 @@
             <a href="#" class="footer-link">Terms</a>
             <a href="#" class="footer-link">Settings</a>
         </div>
-    </div>
 </footer>
 
 </html>
