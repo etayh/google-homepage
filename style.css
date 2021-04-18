@@ -89,6 +89,10 @@ a:hover {
     justify-content: flex-start;
 }
 
+#search-outline:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
 #search-buttons {
     display: flex;
     flex-direction: row;
@@ -97,6 +101,10 @@ a:hover {
 
 #search-buttons button:hover {
     border: 1px solid grey;
+}
+
+.search-links a {
+    color: #222;
 }
 
 .search-links a:hover {
